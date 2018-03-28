@@ -1,0 +1,19 @@
+{
+  "name": "githubissuetracker",
+  "version": "1.0.0",
+  "description": "Challange github tracker api ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ricardoglez/githubIssueTracker.git"
+  },
+  "author": "Ricardo Gonzalez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ricardoglez/githubIssueTracker/issues"
+  },
+  "homepage": "https://github.com/ricardoglez/githubIssueTracker#readme"
+}
