@@ -4,7 +4,7 @@
   "description": "Challange github tracker api ",
   "main": "index.js",
   "scripts": {
-    "start": "parcel index.html",
+    "start": "parcel index.html --no-cache -p 3500 watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,14 +18,25 @@
   },
   "homepage": "https://github.com/ricardoglez/githubIssueTracker#readme",
   "dependencies": {
+    "apollo-boost": "^0.1.4",
+    "apollo-link": "^1.2.1",
+    "apollo-link-context": "^1.0.7",
     "axios": "^0.18.0",
+    "graphql": "^0.13.2",
+    "graphql-tag": "^2.8.0",
+    "grommet": "^1.10.1",
+    "node-sass": "^4.8.3",
     "react": "^16.2.0",
+    "react-apollo": "^2.1.1",
     "react-dom": "^16.2.0",
     "react-redux": "^5.0.7",
-    "redux": "^3.7.2"
+    "redux": "^3.7.2",
+    "sass-loader": "^6.0.7"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
+    "babel-plugin-graphql-tag": "^1.5.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1"
   }
