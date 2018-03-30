@@ -1,12 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Github tracker</title>
+    <title>Github issues tracker Challange</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/grommet/1.10.1/grommet.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/grommet/1.10.1/grommet.min.css">
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyAQuMMwPsH0XkCes2FuTfr605jlskPUPjU",
+        authDomain: "githubchallange.firebaseapp.com",
+        databaseURL: "https://githubchallange.firebaseio.com",
+        projectId: "githubchallange",
+        storageBucket: "",
+        messagingSenderId: "109313410217"
+      };
+      firebase.initializeApp(config);
+      // console.log('Config Firebase',config);
+      // console.log(firebase);
+    </script>
 </head>
 <body>
 <div id="app"></div>
+
+
 <script src="./src/index.js"></script>
 <!-- <script corssorigin src='https://cdnjs.cloudflare.com/ajax/libs/grommet/1.10.1/grommet.min.js'><script/> -->
 </body>
