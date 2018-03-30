@@ -48,6 +48,7 @@ if(accessToken){
 ReactDOM.render(
   <Router >
     <Switch>
+      <Redirect exact path='/' to='/tracker'/>
       <Route exact path='/tracker' component={ Tracker }/>
       <Route exact path='/ingresar' component={ Login }/>
     </Switch>
